@@ -47,7 +47,7 @@ class Main:
     def initGui(self):
         self.toolBar = self.iface.addToolBar("Normalization")
         # Create action that will start plugin configuration
-        self.action_norm = QAction(QIcon(":/plugins/Normalization/icons/Norm.PNG"), "Norm", self.iface.mainWindow())
+        self.action_norm = QAction(QIcon(":/plugins/Normalization/icons/norm.png"), "Norm", self.iface.mainWindow())
         # Connect the action to the run method
         self.action_norm.triggered.connect(self.norm)
         # Add toolbar button and menu item
